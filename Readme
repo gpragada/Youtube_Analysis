@@ -1,0 +1,57 @@
+
+YouTube Google API Analysis:
+
+Project Overview
+This project aims to analyze what makes a video trend on YouTube using data from the YouTube API. The analysis includes data collection, processing, and visualization to draw meaningful conclusions about trending videos.
+
+Table of Contents
+1. Introduction
+2. Libraries Used
+3. Setup Instructions
+4. Usage
+5. Conclusion
+
+Introduction
+The Jupyter Notebook `Youtube_Google_API_Analysis.ipynb` provides an analysis of YouTube trending videos. The notebook fetches data using the YouTube Data API, processes the data, and visualizes various aspects that contribute to a video's trending status.
+
+Libraries Used
+The following libraries are utilized in this project:
+- `googleapiclient`
+- `isodate`
+- `matplotlib`
+- `pandas`
+- `seaborn`
+
+Setup Instructions
+To run the notebook, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
+
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Set up API credentials:
+   - Obtain API credentials from the [Google Developers Console](https://console.developers.google.com/).
+   - Save the credentials in a file named `credentials.json` in the root directory of the project.
+
+Usage
+To run the notebook, execute the following command in the terminal:
+```bash
+jupyter notebook Youtube_Google_API_Analysis.ipynb
+```
+This will open the notebook in your default web browser. You can then run the cells sequentially to perform the analysis.
+
+Conclusion
+The notebook concludes with insights on the factors that influence a video to trend on YouTube. The analysis is based on various attributes such as view count, like count, comment count, and more, visualized using `matplotlib` and `seaborn`.
